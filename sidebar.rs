@@ -1,5 +1,6 @@
-use gtk4::prelude::*;
-use gtk4::{ListBox, ListBoxRow, Label};
+use gtk4 as gtk;
+use gtk::prelude::*;
+use gtk::{ListBox, ListBoxRow, Label};
 
 pub fn build_sidebar() -> ListBox {
     let list = ListBox::new();
